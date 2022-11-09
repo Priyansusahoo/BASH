@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "---------------START--------------------"
+echo "1. In out BASH script we have three components: the Start, the middle, and the end."
+echo "   -> The START is hashbang line('shebang Line')(#!) e.g: #!/bin/bash" 
+echo "       --> (in this we tell the shell which script this is!.)"
+echo "   -> The MIDDLE is the 'commands' this is where the show happens."
+echo "   -> The end of the Bash script is the exit Code (0: successfull; 1-255 = unsuccessful)."
+echo ""
+echo "2. We learned to give execute permissions to our script using: 'chmod +x <scriptName>'"
+echo "----------------END---------------------"
+#sudo apt update && sudo apt-get update
+#sudo apt upgrade
+exit 0
