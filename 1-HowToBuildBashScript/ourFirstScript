@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# Author: Priyansu Sahoo
+# Data Created: 9/11/2022
+# Last Modified: 10/11/2022
+
+# Description
+# Prints "This is my first script" to the terminal
+
+# Usage
+# our_first_script
+
 echo "---------------START--------------------"
 echo "1. In out BASH script we have three components: the Start, the middle, and the end."
 echo "   -> The START is hashbang line('shebang Line')(#!) e.g: #!/bin/bash" 
@@ -9,6 +19,4 @@ echo "   -> The end of the Bash script is the exit Code (0: successfull; 1-255 =
 echo ""
 echo "2. We learned to give execute permissions to our script using: 'chmod +x <scriptName>'"
 echo "----------------END---------------------"
-#sudo apt update && sudo apt-get update
-#sudo apt upgrade
 exit 0
